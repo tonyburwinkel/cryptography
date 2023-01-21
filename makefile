@@ -1,2 +1,2 @@
-crypto: caesar.c decrypt.h encrypt.h encrypt.c decrypt.c
-	gcc caesar.c decrypt.c encrypt.c -o $@
+crypto: crypto.c decrypt.h encrypt.h encrypt.c decrypt.c
+	gcc crypto.c decrypt.c encrypt.c -o $@
